@@ -49,14 +49,14 @@ function App() {
           onChange={(e) => setTitle(e.target.value)}
           value={title}
           type="text"
-          placeholder="Title"
+          placeholder="                                  Title"
         />
         <input
           className="input-field"
           onChange={(e) => setDescription(e.target.value)}
           value={description}
           type="text"
-          placeholder="Description"
+          placeholder="                             Description"
         />
         <button className="add-btn" type="submit">
           Add Todo
